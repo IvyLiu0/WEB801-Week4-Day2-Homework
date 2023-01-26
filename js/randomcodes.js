@@ -8,9 +8,9 @@ var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$';
 
 function generateCode(){
     //generate charater multiple times using a loop
-    for (i=1; i<=8;i++){
-        var char = Math.random() * str.length //random select a character from the variable and then store in a new variable
-        code += str.charAt(char) //accumulate the generated character into a string of 8characters
+    for (var i=1; i<=8;i++){
+        var char = Math.random() * str.length; //random select a character from the variable and then store in a new variable
+        code += str.charAt(char); //accumulate the generated character into a string of 8characters
     }
     return code; //return the final accumulated string when loop ends
 }
