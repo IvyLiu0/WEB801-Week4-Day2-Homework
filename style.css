@@ -271,13 +271,13 @@ textarea{
 }
 
 
-/* input[type="submit"]{
+input[type="submit"]{
     margin: 15px 0 15px 520px;
     width: 100px;
     height: 30px;
-    background-color: #4977d1;
+    /* background-color: #4977d1; */
     color: #fff;
-} */
+}
 
 .randomcode input{
     margin-top: 50px;
